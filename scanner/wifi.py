@@ -6,7 +6,7 @@ import re
 
 from collections import defaultdict
 
-import wifi.oui
+import scanner.oui
 
 class WiFi:
     def __init__(self, adapter: str, dump_path: str, scan_time: int = 30, filter_oui: bool = False, oui_path: str = "", filter_rssi: bool = False, rssi_limit: int = -70, ignore_randomization: bool = False):
@@ -101,9 +101,9 @@ class WiFi:
     def load_oui(self, oui_path):
         if not os.path.isfile(oui_path):
             print('Downloading OUI information...')
-            wifi.oui.download_oui(oui_path)
+            scanner.oui.download_oui(oui_path)
 
-        oui_list = wifi.oui.load_oui(oui_path)
+        oui_list = scanner.oui.load_oui(oui_path)
         if not oui_list:
             print(f'Failed to load {oui_path}')
             sys.exit(1)
