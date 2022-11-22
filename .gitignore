@@ -164,3 +164,7 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# Start of project specific filters
+dumps/capture.pcapng
+ieee8802/oui.txt
