@@ -1,5 +1,5 @@
 # khushere-hardware
-KHUSHERE is an app dedicated to show traffic of certain places in Kyung Hee University. It can detect how many people are nearby by counting mobile devices'. Since most of university students carry at least one mobile devices, it can pretty certainly provide traffic with quite an accuracy.
+KHUSHERE is an app dedicated to show traffic of certain places in Kyung Hee University. It can detect how many people are nearby by counting mobile devices'. Since most of university students carry at least one mobile devices, it can provide traffic with ok accuracy.
 
 
 This system can be used not only for providing whether enclosed space is crowded but preventing accidents like [Itaewon Halloween Crowd Crush](https://www.koreaherald.com/view.php?ud=20221030000006). You can even use it for controlling lighting and heating to save fossil fuel usage!
